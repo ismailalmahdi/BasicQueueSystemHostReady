@@ -128,4 +128,3 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 MEDIA_URL = '/uploads/'
 
 FRONTEND_ROOT = os.path.abspath(os.path.join(BASE_DIR ,'build'))
-
