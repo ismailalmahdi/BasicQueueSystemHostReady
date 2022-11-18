@@ -123,7 +123,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/djangoStatic/'
-
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 #FRONTEND_ROOT = os.path.abspath(os.path.join(BASE_DIR,'..','myfrontend','my-app','build'))
 MEDIA_URL = '/uploads/'
 
