@@ -25,7 +25,7 @@ SECRET_KEY = '7(h(%(j0qjip=&ssdc%56z@78y_=qu=c-r*texxxc1mn1m73_^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [queueticketingsystem.herokuapp.com]
+ALLOWED_HOSTS = ['queueticketingsystem.herokuapp.com']
 
 
 # Application definition
