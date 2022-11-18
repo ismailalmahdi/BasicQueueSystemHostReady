@@ -127,4 +127,4 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 #FRONTEND_ROOT = os.path.abspath(os.path.join(BASE_DIR,'..','myfrontend','my-app','build'))
 MEDIA_URL = '/uploads/'
 
-FRONTEND_ROOT = os.path.abspath(os.path.join(BASE_DIR ,'build'))
+FRONTEND_ROOT = os.path.abspath(os.path.join(BASE_DIR ,'app','staticfiles','build'))
